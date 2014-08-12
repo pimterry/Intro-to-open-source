@@ -1,0 +1,31 @@
+35 mins total
+
+- Intro
+  Me, Softwire, Security is a big deal, not just about your code, etc
+
+- Heartbleed? 
+  Everything breaks. Complicated old things particularly
+  Static analysis good, unsafe languages bad
+  http://opensslrampage.org
+  Tarsnap safe, because it was well isolated
+
+- Apache 
+  Holes anywhere can break *everything*
+
+- Rails
+  User input is dangerous
+  Data formats are dangerous (complexity again)
+  Postel's Law!
+
+- PHP
+  Testing and best practices are important!
+
+- Postgres
+  Isolating your system from itself keeps everything independently secure
+  Exposing your internals makes all of this possible
+
+- Github OAuth?
+  Tricky for time, but good overall example of why all the isolation etc above is important
+
+- Conclusion
+

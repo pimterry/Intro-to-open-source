@@ -1,0 +1,92 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Your Web Stack Would Betray You In An Instant
+
+    // build:css styles/styles.css
+    //- Check out 'src/bower_components/prism/themes/' for available themes
+    link(rel='stylesheet', type='text/css', href='bower_components/prism/themes/prism-tomorrow.css')
+    link(rel='stylesheet', type='text/css', href='styles/defaults.css')
+    link(rel='stylesheet', type='text/css', href='styles/main.css')
+    // endbuild
+
+  body
+
+    article
+
+      section(data-bespoke-state='topic-slide')
+        h1.title Introduction to Open Source
+        address.vcard
+          div.author.fn Tim Perry
+          div.note.bio
+            span Tech Lead &amp; Open-Source Champion at 
+            span.org.vcard
+              a.org.fn.url(href='http://softwire.com',rel="group") Softwire
+          ul.urls
+            li
+              a.url(href='http://tim-perry.co.uk',rel="me") tim-perry.co.uk
+            li
+              a.nickname.url(href='http://twitter.com/pimterry',rel="me") @pimterry
+            li
+              a.url(href='http://github.com/pimterry',rel="me") github.com/pimterry
+
+      section
+        img(src='images/softwireLogo.png',class='logo-big',alt='Softwire')
+        aside
+          ul
+            li Bespoke software development company
+            li in London
+            li We're recruiting!
+            li Interesting problems, great atmosphere, huge variety of different tools and projects
+
+      section(data-bespoke-state='topic-slide') 
+        h2.full-slide(style='text-align: left')
+          | Any questions?
+        br
+
+        address.vcard
+          div.author.fn Tim Perry
+          div.note.bio
+            span Tech Lead &amp; Open-Source Champion at 
+            span.org.vcard
+              a.org.fn.url(href='http://softwire.com',rel="group") Softwire
+          ul.urls
+            li
+              a.url(href='http://tim-perry.co.uk',rel="me") tim-perry.co.uk
+            li
+              a.nickname.url(href='http://twitter.com/pimterry',rel="me") @pimterry
+            li
+              a.url(href='http://github.com/pimterry',rel="me") github.com/pimterry
+
+        aside
+          ul
+            li We're recruiting!
+            li Follow me on twitter for slides
+            li C# stack: Windows!
+            li DOS via a specific IPv6 packet
+            li XMLDOM ActiveX control in every windows up to 8.1 is vulnerable to bil laughs
+            li Mostly fairly stable otherwise, main attacks tend to be ActiveX component leftovers
+            li Java: 35 remotely exploitable vulns fixed this month's Java SE release
+            li 4 exploits rated 10/10, but no details, includes many in JAX-WS etc
+        
+
+    // build:js scripts/scripts.js
+    script(src='bower_components/bespoke.js/dist/bespoke.js')
+    script(src='bower_components/bespoke-keys/dist/bespoke-keys.min.js')
+    script(src='bower_components/bespoke-touch/dist/bespoke-touch.min.js')
+    script(src='bower_components/bespoke-scale/dist/bespoke-scale.min.js')
+    script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+    script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+    script(src='bower_components/bespoke-convenient/dist/bespoke-convenient.js')
+    script(src='bower_components/bespoke-indexfinger/dist/bespoke-indexfinger.js')
+    script(src='bower_components/bespoke-secondary/dist/bespoke-secondary.js')
+    script(src='scripts/bespoke-bullets.js')
+    script(src='bower_components/prism/prism.js')
+    script(src='bower_components/prism/components/prism-ruby.js')
+    script(src='bower_components/prism/components/prism-php.js')
+    script(src='bower_components/prism/components/prism-c.js')
+    script(src='bower_components/prism/components/prism-bash.js')
+    script(src='scripts/main.js')
+    // endbuild
