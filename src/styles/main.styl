@@ -36,6 +36,8 @@ body {
   text-align: left;
   font-weight: normal;
   font-family: 'Patua One', serif;
+  font-size: 90pt;
+  line-height: 100px;
 }
 
 h2.full-slide {
@@ -49,7 +51,7 @@ h2.fullish-slide {
   font-size: 73pt;
 }
 
-h3 {
+h4 {
   padding-top: 15px;
   opacity: 0.6;
 }
@@ -124,7 +126,7 @@ pre {
   flex-direction: row;
   width: 100%;
 
-  pre {
+  > div, pre {
     width: 48%;
     margin: 0.5em 0.4em;
     padding: 26px 10px;
@@ -139,21 +141,10 @@ pre {
   color: #c13038;
 }
 
-.topic-slide {
-  background-color: #f3b840;
-}
-
-.solution-slide {
-  background-color: #c13038;
-}
-
-*[data-bespoke-state='solution-slide'] {
-  &, * {
-    color: #fafafa;
-  }
-}
-
 .in-place-transition {
+  width: 100%;
+  text-align: inherit;
+
   .bespoke-bullet-inactive {
     opacity: 0;
     display: none;
