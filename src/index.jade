@@ -48,6 +48,7 @@ html
 
       section
         h2.full-slide Open Source Software
+        h3 (OSS)
         aside
           ul 
             li Firstly, we're notably only talking about software
@@ -98,10 +99,63 @@ html
             li Lots of people have written open-source libraries you can use
             li Lots of open-source and free tools that you can use for development and take apart and examine
             li In addition though, you can contribute
+
+      section
+        h2.full-slide Contribute to OSS
+
+      section
+        h2 Github
+        ol
+          li Fork the repo
+          li Clone locally from your fork
+          li Make changes
+          li Commit
+          li Push to your fork
+          li Open a pull request from your fork to their repo
+
+      section
+        h2 Github (long version)
+        ol
+          li Fork the repo
+          li Clone locally from your fork
+          li Add their repo as upstream
+          li Create a branch from master with a relevant name (fix-scrolling-bug)
+          li Make changes
+          li Commit to branch
+          li Fetch &amp; rebase onto upstream master changes
+          li Push to your fork
+          li Open a pull request from your fork to their repo
+
+      section
+        h2 Elsewhere
+        ul
+          li Bugzilla projects
+          li Mailing list based projects
+
+      section
+        h2 Things to watch out for
+        ul
+          li
+          li Projects on Github not really using Github
+          li Previously rejected changes
+          li Unmaintained repositories
+          li CONTRIBUTING.md
+          li Not everything on Github is open-source
+
+      section
+        h2 Release Open Source Software
+
+      section
+        h2 Licenses
+        ul.bullets
+          li
+          li MIT License
+          li Apache License
+          li GPL License
          
       section
         h2.full-slide(style='text-align: left')
-          | Any questions?
+          | Questions?
         br
 
         address.vcard
@@ -122,13 +176,6 @@ html
           ul
             li We're recruiting!
             li Follow me on twitter for slides
-            li C# stack: Windows!
-            li DOS via a specific IPv6 packet
-            li XMLDOM ActiveX control in every windows up to 8.1 is vulnerable to bil laughs
-            li Mostly fairly stable otherwise, main attacks tend to be ActiveX component leftovers
-            li Java: 35 remotely exploitable vulns fixed this month's Java SE release
-            li 4 exploits rated 10/10, but no details, includes many in JAX-WS etc
-        
 
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.js')
