@@ -2,7 +2,7 @@
   font-family: 'Patua One';
   font-style: normal;
   font-weight: 400;
-  src: local('Patua One'), local('PatuaOne-Regular'), url("/fonts/patua-one.woff") format('woff');
+  src: local('Patua One'), local('PatuaOne-Regular'), url("/Intro-to-open-source/fonts/patua-one.woff") format('woff');
 }
 @media print {
   section,
