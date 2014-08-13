@@ -1,4 +1,4 @@
-# Your Web Stack Would Betray You In An Instant
+# Introduction to Open Source
 > A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
 
 ## View slides locally
